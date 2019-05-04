@@ -23,3 +23,18 @@ git add --all
 git commit -m "initial commit"
 git push -u origin master
 ```
+
+## execution
+
+- hit F5 on vscode
+
+```
+1+2=3
+```
+
+## remarks
+
+- [dependant task](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/.vscode/tasks.json#L14) before to build
+- makefile [LIBRARY](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/.vscode/tasks.json#L20) var override to out .so file in the dotnet bin folder
+- cpp makefile ensured output library folder [exists](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/cpp-library/Makefile#L11)
+- csharp [dll method import](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/dotnet-app/Program.cs#L8-L9)

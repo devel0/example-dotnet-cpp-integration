@@ -9,7 +9,21 @@
                 "build",
                 "${workspaceFolder}/dotnet-app/dotnet-app.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "dependsOn": [
+                "cpplib"
+            ]            
+        },
+        {
+            "label": "cpplib",
+            "command": "make",
+            "args": [ "LIBRARY=${workspaceFolder}/dotnet-app/bin/Debug/netcoreapp2.2/lib.so"],
+            "options": {
+                "cwd": "${workspaceFolder}/cpp-library"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "publish",

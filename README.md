@@ -7,6 +7,8 @@ mkdir example-dotnet-cpp-integration
 cd example-dotnet-cpp-integration
 git init
 curl -s https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore -o .gitignore
+echo "*.so" >> .gitignore
+echo "*.o" >> .gitignore
 curl -s https://api.github.com/licenses/mit | jq -r ".body" | sed "s/\[year\]/$(date +%Y)/g" | sed "s/\[fullname\]/myname/g" > LICENSE
 
 dotnet new console -n dotnet-app

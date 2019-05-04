@@ -2,7 +2,7 @@
 
 ## how this project was built
 
-```
+```sh
 mkdir example-dotnet-cpp-integration
 cd example-dotnet-cpp-integration
 git init

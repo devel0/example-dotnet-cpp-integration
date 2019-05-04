@@ -48,3 +48,5 @@ sample message iteration n.9
 - makefile [LIBRARY](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/.vscode/tasks.json#L20) var override to out .so file in the dotnet bin folder
 - cpp makefile ensured output library folder [exists](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/cpp-library/Makefile#L11)
 - csharp [dll method import](https://github.com/devel0/example-dotnet-cpp-integration/blob/df9004b02cb4b90a5640b6259a36d4c0a0b4a97a/dotnet-app/Program.cs#L8-L9)
+- cpp [function pointer](https://github.com/devel0/example-dotnet-cpp-integration/blob/b303afce00e70c8e28f310b696d0eeafe9f2dabb/cpp-library/lib.cpp#L12)
+- csharp import function with [function pointer argument](https://github.com/devel0/example-dotnet-cpp-integration/blob/7ccb7e41fe3c1d6dc275f401e4c5512d54ecb56e/dotnet-app/Program.cs#L11-L14)

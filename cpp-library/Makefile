@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-c -Wall
+CFLAGS=-c -Wall -fPIC
 LDFLAGS=-shared
 SOURCES=lib.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
